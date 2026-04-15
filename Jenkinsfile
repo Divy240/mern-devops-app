@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/mern-devops-app.git'
+               git branch: 'main', url: 'https://github.com/Divy240/mern-devops-app.git'
             }
         }
 
